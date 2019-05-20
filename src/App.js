@@ -8,7 +8,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Kick Off Times</h2>
-        <p>Start times for sport events</p>
+        <p>Start times for sport events using open data formats</p>
+        <ul>
+          <li>Structured Data (for SERP)</li>
+          <li>Microformats (for people)</li>
+          <li>RSS (for syndication)</li>
+          <li>ICS (for calendar subscriptions)</li>
+        </ul>
       </header>
     </div>
   );
