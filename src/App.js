@@ -1,8 +1,17 @@
 import React from 'react';
+import data from './Events.json';
 import logo from './kickoff-outline-144.png';
+import eventSummary from './EventSummary.js';
+
 import './App.css';
 
 function App() {
+  console.log(data);
+  let events = data.events;
+  let eventsList  = React.createElement('div', null, )
+  events.forEach(element => {
+    
+  });
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +25,7 @@ function App() {
           <li>ICS (for calendar subscriptions)</li>
         </ul>
       </header>
+
     </div>
   );
 }
