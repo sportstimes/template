@@ -9,11 +9,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Kick Off Times</h2>
         <p>Start times for sport events using open data formats</p>
-        <ul>
-          <li><strong>Microformats</strong> for people</li>
-          <li><strong><abbr title="">ICS</abbr></strong> for calendars</li>
-          <li><strong><abbr title="Really Simple Syndication">RSS</abbr></strong> for sharing</li>
-          <li><strong>Structured Data</strong> for <abbr title="Search Engine Results Page">SERP</abbr></li>
+        <ul className="explain--group">
+          <li className="explain--microformats"><strong>Microformats</strong> for people</li>
+          <li className="explain--ics"><strong><abbr title="">ICS</abbr></strong> for calendars</li>
+          <li className="explain--rss"><strong><abbr title="Really Simple Syndication">RSS</abbr></strong> for sharing</li>
+          <li className="explain--jsonld"><strong><abbr title="JavaScript Object Notation Linked Data">JSON-LD</abbr></strong> for <abbr title="Search Engine Results Page">SERP</abbr></li>
         </ul>
       </header>
     </div>
