@@ -10,10 +10,10 @@ function App() {
         <h2>Kick Off Times</h2>
         <p>Start times for sport events using open data formats</p>
         <ul>
-          <li>Structured Data (for SERP)</li>
-          <li>Microformats (for people)</li>
-          <li>RSS (for syndication)</li>
-          <li>ICS (for calendar subscriptions)</li>
+          <li><strong>Microformats</strong> for people</li>
+          <li><strong><abbr title="">ICS</abbr></strong> for calendars</li>
+          <li><strong><abbr title="Really Simple Syndication">RSS</abbr></strong> for sharing</li>
+          <li><strong>Structured Data</strong> for <abbr title="Search Engine Results Page">SERP</abbr></li>
         </ul>
       </header>
     </div>
