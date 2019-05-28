@@ -11,7 +11,7 @@ function App() {
         <p>Start times for sport events using open data formats</p>
         <ul className="Explain-group">
           <li className="Explain-microformats"><strong>Microformats</strong> for people</li>
-          <li className="Explain-ics"><strong><abbr title="">ICS</abbr></strong> for calendars</li>
+          <li className="Explain-ics"><strong><abbr title="iCalendar">ICS</abbr></strong> for calendars</li>
           <li className="Explain-rss"><strong><abbr title="Really Simple Syndication">RSS</abbr></strong> for sharing</li>
           <li className="Explain-jsonld"><strong><abbr title="JavaScript Object Notation Linked Data">JSON-LD</abbr></strong> for <abbr title="Search Engine Results Page">SERP</abbr></li>
         </ul>
