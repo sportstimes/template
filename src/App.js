@@ -22,8 +22,10 @@ function App() {
         </ul>
         <ul className="Events-list">
           {
-            events.map((item, key) => {
-              return <li key={key}>{item.dateTimeStart} {item.summary}</li>
+            events.map((item, key) => {              
+              return <li key={key}>
+                  <time timestamp="{item.dateTimeStart}">{item.dateTimeStart}</time> <strong>{item.summary}</strong>
+              </li>
             })
           }
         </ul>
