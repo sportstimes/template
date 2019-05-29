@@ -20,15 +20,17 @@ function App() {
           <li>RSS (for syndication)</li>
           <li>ICS (for calendar subscriptions)</li>
         </ul>
-        <ul className="Events-list">
+        <table className="Events-list">
           {
             events.map((item, key) => {              
-              return <li key={key}>
-                  <time timestamp="{item.dateTimeStart}">{item.dateTimeStart}</time> <strong>{item.summary}</strong>
-              </li>
+              return <tr key={key} className="vevent">
+                  <td className="dtstart" title="{item.dateTimeStart}">{item.dateTimeStart}</td>
+                  <th className="summary">{item.summary}</th>
+                  <th className="location">{item.locationName}</th>
+              </tr>
             })
           }
-        </ul>
+        </table>
       </header>
     </div>
   );
