@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Kick Off Times</h2>
+        <h2>{data.name} Kick Off Times</h2>
         <table className="Events-list">
           {rows}
         </table>
