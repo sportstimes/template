@@ -13,7 +13,7 @@ function App() {
         <td className="dtstart" title="{item.dateTimeStart}">
         {new Intl.DateTimeFormat('en-GB', { 
           year: 'numeric', 
-          month: 'long', 
+          month: 'short', 
           day: '2-digit' 
         }).format( Date.parse(item.dateTimeStart) )}
         </td>
@@ -27,6 +27,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Kick Off Times</h2>
+        <table className="Events-list">
+          {rows}
+        </table>
+        <h3>What is this?</h3>
         <p>Start times for sport events using open data formats</p>
         <ul>
           <li>Structured Data (for SERP)</li>
@@ -34,9 +38,6 @@ function App() {
           <li>RSS (for syndication)</li>
           <li>ICS (for calendar subscriptions)</li>
         </ul>
-        <table className="Events-list">
-          {rows}
-        </table>
       </header>
     </div>
   );
