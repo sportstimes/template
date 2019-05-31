@@ -18,7 +18,6 @@ function App() {
         }).format( Date.parse(item.dateTimeStart) )}
         </td>
         <th className="summary">{item.summary}</th>
-        <th className="location">{item.locationName}</th>
     </tr>
   });
 
