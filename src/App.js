@@ -8,6 +8,20 @@ function App() {
   console.log(data);
   let events = data.events;
 
+  const rows = events.map((item, key) => {              
+    return <tr key={key} className="vevent">
+        <td className="dtstart" title="{item.dateTimeStart}">
+        {new Intl.DateTimeFormat('en-GB', { 
+          year: 'numeric', 
+          month: 'long', 
+          day: '2-digit' 
+        }).format( Date.parse(item.dateTimeStart) )}
+        </td>
+        <th className="summary">{item.summary}</th>
+        <th className="location">{item.locationName}</th>
+    </tr>
+  });
+
   return (
     <div className="App">
       <header className="App-header">
@@ -21,15 +35,7 @@ function App() {
           <li>ICS (for calendar subscriptions)</li>
         </ul>
         <table className="Events-list">
-          {
-            events.map((item, key) => {              
-              return <tr key={key} className="vevent">
-                  <td className="dtstart" title="{item.dateTimeStart}">{item.dateTimeStart}</td>
-                  <th className="summary">{item.summary}</th>
-                  <th className="location">{item.locationName}</th>
-              </tr>
-            })
-          }
+          {rows}
         </table>
       </header>
     </div>
