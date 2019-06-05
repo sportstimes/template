@@ -34,6 +34,13 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>{data.name} Kick Off Times</h2>
         <table className="Events-list">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Summary</th>
+            </tr>
+          </thead>
           {rows}
         </table>
         <h3>What is this?</h3>
