@@ -17,6 +17,13 @@ function App() {
           day: '2-digit' 
         }).format( Date.parse(item.dateTimeStart) )}
         </td>
+        <td className="dtend">
+        {new Intl.DateTimeFormat('en-GB', { 
+          hour12 : true,
+          hour: 'numeric', 
+          minute: '2-digit'
+        }).format( Date.parse(item.dateTimeStart) )}
+        </td>
         <th className="summary">{item.summary}</th>
     </tr>
   });
