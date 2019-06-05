@@ -24,7 +24,7 @@ function App() {
           minute: '2-digit'
         }).format( Date.parse(item.dateTimeStart) )}
         </td>
-        <th className="summary">{item.summary}</th>
+        <td className="summary">{item.summary}</td>
     </tr>
   });
 
