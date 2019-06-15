@@ -45,11 +45,11 @@ function App() {
         </table>
         <h3>What is this?</h3>
         <p>Start times for sport events using open data formats</p>
-        <ul>
-          <li>Structured Data (for SERP)</li>
-          <li>Microformats (for people)</li>
-          <li>RSS (for syndication)</li>
-          <li>ICS (for calendar subscriptions)</li>
+        <ul className="Explain-group">
+          <li className="Explain-microformats"><strong>Microformats</strong> for people</li>
+          <li className="Explain-ics"><strong><abbr title="iCalendar">ICS</abbr></strong> for calendars</li>
+          <li className="Explain-rss"><strong><abbr title="Really Simple Syndication">RSS</abbr></strong> for sharing</li>
+          <li className="Explain-jsonld"><strong><abbr title="JavaScript Object Notation Linked Data">JSON-LD</abbr></strong> for <abbr title="Search Engine Results Page">SERP</abbr></li>
         </ul>
       </header>
     </div>
