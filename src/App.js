@@ -43,6 +43,9 @@ function App() {
           </thead>
           {rows}
         </table>
+        <div className="Events-detail">
+          <h2>[insert event summary]</h2>
+        </div>
         <h3>What is this?</h3>
         <p>Start times for sport events using open data formats</p>
         <ul className="Explain-group">
