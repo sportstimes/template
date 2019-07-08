@@ -1,26 +1,131 @@
 {
-    "name": "EFL Championship Play-Offs 2019",
+    "name": "Rugby World Cup 2019",
     "events": [
         {
-            "summary": "Derby County v Leeds United",
-            "dateTimeStart": "2019-05-11T16:15:00Z",
-            "dateTimeEnd": "2019-05-11T18:00:00Z",
-            "locationName": "Pride Park",
-            "description": "EFL Championship Play-Off First Round"
+            "summary": "Japan v Russia",
+            "dateTimeStart": "2019-09-20T10:45:00Z",
+            "dateTimeEnd": "2019-09-20T12:10:00Z",
+            "locationName": "Tokyo Stadium, Tokyo",
+            "description": "Pool A"
         },
         {
-            "summary": "Leeds United v Derby County",
-            "dateTimeStart": "2019-05-15T18:45:00Z",
-            "dateTimeEnd": "2019-05-15T20:30:00Z",
-            "locationName": "Elland Road",
-            "description": "EFL Championship Play-Off Second Round"
+            "summary": "Australia v Fiji",
+            "dateTimeStart": "2019-09-21T04:45:00Z",
+            "dateTimeEnd": "2019-09-21T06:10:00Z",
+            "locationName": "Sapporo Dome, Sapporo",
+            "description": "Pool D"
         },
         {
-            "summary": "Aston Villa v Derby County",
-            "dateTimeStart": "2019-05-27T14:00:00Z",
-            "dateTimeEnd": "2019-05-27T15:50:00Z",
-            "locationName": "Wembley Stadium",
-            "description": "EFL Championship Play-Off Final"
+            "summary": "France v Argentina",
+            "dateTimeStart": "2019-09-21T07:15:00Z",
+            "dateTimeEnd": "2019-09-21T08:40:00Z",
+            "locationName": "Tokyo Stadium, Tokyo",
+            "description": "Pool C"
+        },
+        {
+            "summary": "New Zealand v South Africa",
+            "dateTimeStart": "2019-09-21T09:45:00Z",
+            "dateTimeEnd": "2019-09-21T11:10:00Z",
+            "locationName": "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",
+            "description": "Pool B"
+        },
+        {
+            "summary": "Italy v Namibia",
+            "dateTimeStart": "2019-09-22T05:15:00Z",
+            "dateTimeEnd": "2019-09-22T06:40:00Z",
+            "locationName": "Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City",
+            "description": "Pool B"
+        },
+        {
+            "summary": "Ireland v Scotland",
+            "dateTimeStart": "2019-09-22T05:15:00Z",
+            "dateTimeEnd": "2019-09-22T06:40:00Z",
+            "locationName": "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City",
+            "description": "Pool A"
+        },
+        {
+            "summary": "England v Tonga",
+            "dateTimeStart": "2019-09-22T10:15:00Z",
+            "dateTimeEnd": "2019-09-22T11:40:00Z",
+            "locationName": "Sapporo Dome, Sapporo",
+            "description": "Pool C"
+        },
+        {
+            "summary": "Wales v Georgia",
+            "dateTimeStart": "2019-09-23T10:15:00Z",
+            "dateTimeEnd": "2019-09-23T11:40:00Z",
+            "locationName": "City of Toyota Stadium, Aichi Prefecture, Toyota City",
+            "description": "Pool D"
+        },
+        {
+            "summary": "Russia v Samoa",
+            "dateTimeStart": "2019-09-24T10:15:00Z",
+            "dateTimeEnd": "2019-09-24T11:40:00Z",
+            "locationName": "Kumagaya Rugby Stadium, Saitama Prefecture, Kumagaya City",
+            "description": "Pool A"
+        },
+        {
+            "summary": "Fiji v Uruguay",
+            "dateTimeStart": "2019-09-25T05:15:00Z",
+            "dateTimeEnd": "2019-09-25T06:40:00Z",
+            "locationName": "Kamaishi Recovery Memorial Stadium, Iwate Prefecture, Kamaishi City",
+            "description": "Pool D"
+        },
+        {
+            "summary": "Italy v Canada",
+            "dateTimeStart": "2019-09-26T07:45:00Z",
+            "dateTimeEnd": "2019-09-26T09:10:00Z",
+            "locationName": "Fukuoka Hakatanomori Stadium, Fukuoka Prefecture, Fukuoka City",
+            "description": "Pool B"
+        },
+        {
+            "summary": "England v USA",
+            "dateTimeStart": "2019-09-26T10:45:00Z",
+            "dateTimeEnd": "2019-09-26T12:10:00Z",
+            "locationName": "Kobe Misaki Stadium, Kobe City",
+            "description": "Pool C"
+        },
+        {
+            "summary": "Argentina v Tonga",
+            "dateTimeStart": "2019-09-28T04:45:00Z",
+            "dateTimeEnd": "2019-09-28T06:10:00Z",
+            "locationName": "Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City",
+            "description": "Pool C"
+        },
+        {
+            "summary": "Japan v Ireland",
+            "dateTimeStart": "2019-09-28T07:15:00Z",
+            "dateTimeEnd": "2019-09-28T08:40:00Z",
+            "locationName": "Shizuoka Stadium Ecopa, Shizuoka Prefecture",
+            "description": "Pool A"
+        },
+        {
+            "summary": "South Africa v Namibia",
+            "dateTimeStart": "2019-09-28T09:45:00Z",
+            "dateTimeEnd": "2019-09-28T11:10:00Z",
+            "locationName": "City of Toyota Stadium, Aichi Prefecture, Toyota City",
+            "description": "Pool B"
+        },
+        {
+            "summary": "Georgia v Uruguay",
+            "dateTimeStart": "2019-09-29T05:15:00Z",
+            "dateTimeEnd": "2019-09-29T06:40:00Z",
+            "locationName": "Kumagaya Rugby Stadium, Saitama Prefecture, Kumagaya City",
+            "description": "Pool D"
+        },
+        {
+            "summary": "Australia v Wales",
+            "dateTimeStart": "2019-09-29T07:45:00Z",
+            "dateTimeEnd": "2019-09-29T09:10:00Z",
+            "locationName": "Tokyo Stadium, Tokyo",
+            "description": "Pool D"
+        },
+        {
+            "summary": "Scotland v Samoa",
+            "dateTimeStart": "2019-09-30T10:15:00Z",
+            "dateTimeEnd": "2019-09-30T11:40:00Z",
+            "locationName": "Kobe Misaki Stadium, Kobe City",
+            "description": "Pool A"
         }
     ]
 }
