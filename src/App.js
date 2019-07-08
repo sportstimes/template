@@ -45,6 +45,7 @@ function App() {
         </table>
         <div className="Events-detail">
           <h2>[insert event summary]</h2>
+          <h3>[insert time]</h3>
         </div>
         <h3>What is this?</h3>
         <p>Start times for sport events using open data formats</p>
