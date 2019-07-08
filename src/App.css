@@ -31,3 +31,18 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  border: 3px solid #222;
+  width: 80%;
+  padding: 0.5em;
+  margin: 0 auto;
+}
+
+td, th {
+  padding: 0.25em;
+}
+
+th {
+  color: #222;
+}
