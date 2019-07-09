@@ -44,10 +44,19 @@ function App() {
           {rows}
         </table>
         <div className="Events-detail vevent">
-          <h2 className=“summary”>[insert event summary]</h2>
-          <h3 className=“dtstart dtstamp”>[insert start time]</h3>
-          <p className=“location”>[insert location]</p>
-          <div>[insert map view]</div>
+          
+          <h2 className="summary">[insert event summary]</h2>
+          <h3 className="dtstart dtstamp">[insert start time]</h3>
+
+          <div className="Events-location">
+            <p className="location">[insert location]</p>
+            <div>[insert map view]</div>
+          </div>
+
+          <ul className="Events-actions">
+            <li><a href="#">Add to calendar</a></li>
+            <li><a href="#">Share</a></li>
+          </ul>
 
         </div>
         <h3>What is this?</h3>
