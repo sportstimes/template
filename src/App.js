@@ -33,6 +33,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>{data.name} Kick Off Times</h2>
+        
+        <ul className="Calendar-actions">
+          <li><a href="#">Add to Calendar</a></li>
+          <li><a href="#">Subscribe to RSS</a></li>
+        </ul>
+        
         <table className="Events-list">
           <thead>
             <tr>
@@ -54,7 +60,7 @@ function App() {
           </div>
 
           <ul className="Events-actions">
-            <li><a href="#">Add to calendar</a></li>
+            <li><a href="#">Add to Calendar</a></li>
             <li><a href="#">Share</a></li>
           </ul>
 
