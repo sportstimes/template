@@ -27,24 +27,29 @@ function App() {
         <td className="summary">{item.summary}</td>
     </tr>
   });
-
-  return (
-    <script type="application/ld+json">
-    [{
+  
+  const jsonLD = events.map((item, key) => {
+    return {
       "@context": "http://schema.org",
       "@type": "TestEvent",
-      "name": "Kick Off Times Test",
-      "startDate": "2019-11-13T19:30",
+      "name": {item.summary},
+      "startDate": {item.dateTimeStart},
       "location": {
          "@type": "Place",
-         "name": "Wembley",
-         "address": "London, UK"
+         "name": {item.locationName}
       },
       "offers": {
          "@type": "Offer",
          "url": "https://www.etix.com/ticket/1771656"
       }
     }
+
+  });
+
+  return (
+    <script type="application/ld+json">
+    [
+    {jsonLD}
     ]
     </script>
     <div className="App">
