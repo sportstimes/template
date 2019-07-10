@@ -29,6 +29,24 @@ function App() {
   });
 
   return (
+    <script type="application/ld+json">
+    [{
+      "@context": "http://schema.org",
+      "@type": "TestEvent",
+      "name": "Kick Off Times Test",
+      "startDate": "2019-11-13T19:30",
+      "location": {
+         "@type": "Place",
+         "name": "Wembley",
+         "address": "London, UK"
+      },
+      "offers": {
+         "@type": "Offer",
+         "url": "https://www.etix.com/ticket/1771656"
+      }
+    }
+    ]
+    </script>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
