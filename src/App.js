@@ -32,11 +32,11 @@ function App() {
     return {
       "@context": "http://schema.org",
       "@type": "TestEvent",
-      "name": {item.summary},
-      "startDate": {item.dateTimeStart},
+      "name": item.summary,
+      "startDate": item.dateTimeStart,
       "location": {
          "@type": "Place",
-         "name": {item.locationName}
+         "name": item.locationName
       },
       "offers": {
          "@type": "Offer",
