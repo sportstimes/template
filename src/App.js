@@ -47,12 +47,12 @@ function App() {
   });
 
   return (
-    <script type="application/ld+json">
-    [
-    {jsonLD}
-    ]
-    </script>
     <div className="App">
+      <script type="application/ld+json">
+        [
+          {jsonLD}
+        ]
+      </script>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>{data.name} Kick Off Times</h2>
