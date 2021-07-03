@@ -27,12 +27,41 @@ function App() {
         <td className="summary">{item.summary}</td>
     </tr>
   });
+  
+  const jsonLD = events.map((item, key) => {
+    return {
+      "@context": "http://schema.org",
+      "@type": "TestEvent",
+      "name": item.summary,
+      "startDate": item.dateTimeStart,
+      "location": {
+         "@type": "Place",
+         "name": item.locationName
+      },
+      "offers": {
+         "@type": "Offer",
+         "url": "https://www.etix.com/ticket/1771656"
+      }
+    }
+
+  });
 
   return (
     <div className="App">
+      <script type="application/ld+json">
+        [
+          {jsonLD}
+        ]
+      </script>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>{data.name} Kick Off Times</h2>
+        
+        <ul className="Calendar-actions">
+          <li><a href="#">Add to Calendar</a></li>
+          <li><a href="#">Subscribe to RSS</a></li>
+        </ul>
+        
         <table className="Events-list">
           <thead>
             <tr>
@@ -43,6 +72,22 @@ function App() {
           </thead>
           {rows}
         </table>
+        <div className="Events-detail vevent">
+          
+          <h2 className="summary">[insert event summary]</h2>
+          <h3 className="dtstart dtstamp">[insert start time]</h3>
+
+          <div className="Events-location">
+            <p className="location">[insert location]</p>
+            <div>[insert map view]</div>
+          </div>
+
+          <ul className="Events-actions">
+            <li><a href="#">Add to Calendar</a></li>
+            <li><a href="#">Share</a></li>
+          </ul>
+
+        </div>
         <h3>What is this?</h3>
         <p>Start times for sport events using open data formats</p>
         <ul className="Explain-group">
